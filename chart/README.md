@@ -17,7 +17,7 @@ Insert the following snippet in the place where you would like to display chart:
             toCurrency: 'BTC',
         });
         l = i.createElement(p);l.src = m;l.async = 1;e = i.getElementsByTagName(p)[0];e.parentNode.append(l);
-    })(window, document, 'https://cdn.simplecoin.ru/chart/launcher.js', 'script');
+    })(window, document, 'https://cdn.simplecoin.eu/launcher/chart/launcher.js', 'script');
 </script>
 ```
 
