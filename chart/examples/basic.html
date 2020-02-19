@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your page</title>
+</head>
+<body>
+<div id="simplecoin-chart"></div>
+<script>
+    (function (s, i, m, p, l, e) {
+        SimpleCoin = s.SimpleCoin || {};
+        SimpleCoin.Widgets = SimpleCoin.Widgets || {};
+        SimpleCoin.Widgets.Chart = SimpleCoin.Widgets.Chart || [];
+        SimpleCoin.Widgets.Chart.push({
+            id: 'simplecoin-chart'
+        });
+        l = i.createElement(p);l.src = m;l.async = 1;e = i.getElementsByTagName(p)[0];e.parentNode.append(l);
+    })(window, document, 'https://cdn.simplecoin.eu/launcher/chart/launcher.js', 'script');
+</script>
+</body>
+</html>
